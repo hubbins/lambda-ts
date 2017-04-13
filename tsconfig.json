@@ -12,8 +12,8 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "lib": [
-      "es2015",
-      "es2016"
+      "es5",
+      "es2015.promise"
     ]
   },
   "exclude": [
