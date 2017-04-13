@@ -1,4 +1,4 @@
-import {Callback, Handler} from '@types/aws-lambda';
+import {Callback, Handler} from "aws-lambda";
 
 const lambdaFunction: Handler = (event, context, callback: Callback) => {
     let s: string = context.awsRequestId;
