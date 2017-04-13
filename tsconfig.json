@@ -1,0 +1,23 @@
+{
+  "files": [
+    "src/main.ts"
+  ],
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2015",
+      "es2016"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lambda-ts",
+  "version": "1.0.0",
+  "description": "lambda typescript test",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "gulp-zip": "^4.0.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "0.0.10"
+  }
+}
